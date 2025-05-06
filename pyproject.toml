@@ -4,4 +4,7 @@ version = "0.1.0"
 description = "Learn Python Django in Bangla Language - Advance Topic and Code Examples"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "django",
+    "requests",
+]
