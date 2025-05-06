@@ -12,9 +12,13 @@ This is a Django tutorial project aimed at helping users understand the basics o
    ```bash
    cd Tutorial Django
    ```
-3. Install the dependencies:
+3. Install the dependencies using `uv`:
    ```bash
-   pip install -r requirements.txt
+   uv install
+   ```
+4. Sync the project environment:
+   ```bash
+   uv sync
    ```
 
 ## Usage
